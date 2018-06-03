@@ -49,7 +49,7 @@ class RandomWordsState extends State<RandomWords> {
   Widget build(BuildContext context) {
     return new Scaffold(
         appBar: new AppBar(
-          title: new Text('welcome flutter app bar'),
+          title: new Text('Startup Name Generator'),
         ),
         body: new Center(
           child: _buildSuggestions(),
